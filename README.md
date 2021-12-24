@@ -1,11 +1,15 @@
 DOCUMENTATION:
 https://documentation.bloomreach.com/14/trails/getting-started/running-a-project.html
 
+RUN:
+mvn -Pcargo.run -Drepo.path=./storage
+
 ENDPOINTS:
 http://localhost:8080/cms
 http://localhost:8080/cms/console
 http://localhost:8080/site
 http://localhost:8080/essentials/
+http://localhost:8080/site/resourceapi/
 
 
 Running Locally
